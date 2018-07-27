@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+  {% block body_block %}
+    <h1>HOME PAGE</h1>
+    <h2>Welcome to home page!</h2>
+    <p>{{ word|cut:'Hell' }}</p>
+    <p>{{ date|add:99 }}</p>
+  {% endblock %}
